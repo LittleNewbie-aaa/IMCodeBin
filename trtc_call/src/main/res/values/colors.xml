@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //音视频通话相关
+    <color name="trtccalling_color_background">#FF444444</color>
+    <color name="trtccalling_color_white">#FFFFFFFF</color>
+
+    <color name="activity_bar_color">#190F20</color>
+
+    <color name="voiceChatDivided">#3c3c43</color>
+</resources>

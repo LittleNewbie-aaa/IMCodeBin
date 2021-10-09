@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="actionBarSize">50dp</dimen>
+
+    <dimen name="decoration1">1dp</dimen>
+    <dimen name="categoryRadius">15dp</dimen>
+    <dimen name="d360">360dp</dimen>
+    <dimen name="icon_font_size">22dp</dimen>
+
+    <integer name="courseNameTabWeight">2</integer>
+    <integer name="courseStatusTabWeight">1</integer>
+    <integer name="courseOptionTabWeight">1</integer>
+
+
+    <dimen name="msg_image_width">120dp</dimen>
+    <dimen name="msg_image_height">180dp</dimen>
+    <dimen name="dividedSize">1dp</dimen>
+
+    <dimen name="textMiddle">14sp</dimen>
+    <dimen name="spacing">8dp</dimen>
+
+
+    <dimen name="videoDurationRadius">5dp</dimen>
+    <dimen name="msgAvatarMarginLeftOrRight">8dp</dimen>
+
+
+    <dimen name="divideHeight">1px</dimen>
+    <dimen name="contactUserSize">40dp</dimen>
+    <dimen name="userHeadSizeBig">40dp</dimen>
+    <dimen name="userHeadSizeBig_half">20dp</dimen>
+    <dimen name="contactUserMarginLeft">16dp</dimen>
+    <dimen name="contactUserMarginTop">10dp</dimen>
+    <dimen name="contactUserMarginBottom">10dp</dimen>
+
+    <dimen name="divideUserMarginLeft">64dp</dimen>
+
+
+    <dimen name="im_item_padding_right">16dp</dimen>
+    <dimen name="im_text_box_padding">11dp</dimen>
+
+
+    <dimen name="im_msg_voice_height">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

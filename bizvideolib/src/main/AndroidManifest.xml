@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.im.bizvideolib">
+
+    <application>
+        <activity
+            android:name=".dialogActivity.SendVideoMeetingMsgInviteDialog"
+            android:launchMode="singleTask"
+            android:theme="@style/ActivityDialogStyle" />
+        <activity
+            android:name=".dialogActivity.VideoMeetingInviteDialog"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityDialogStyle" />
+
+        <activity
+            android:name=".VideoMeetingInviteActivity"
+            android:label="华e通讯录"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="${applicationId}.intent.action.MeetingInvite" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

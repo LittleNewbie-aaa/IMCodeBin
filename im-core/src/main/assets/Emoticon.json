@@ -1,0 +1,487 @@
+[
+  {
+    "File": "face_01weixiao.gif",
+    "Name": "[微笑]",
+    "Shortcut": "wx"
+  },
+  {
+    "File": "face_02piezui.gif",
+    "Name": "[撇嘴]",
+    "Shortcut": "pz"
+  },
+  {
+    "File": "face_03se.gif",
+    "Name": "[色]",
+    "Shortcut": "se"
+  },
+  {
+    "File": "face_04fadai.gif",
+    "Name": "[发呆]",
+    "Shortcut": "fd"
+  },
+  {
+    "File": "face_05deyi.gif",
+    "Name": "[得意]",
+    "Shortcut": "dy"
+  },
+  {
+    "File": "face_06liulei.gif",
+    "Name": "[流泪]",
+    "Shortcut": "ll"
+  },
+  {
+    "File": "face_07haixiu.gif",
+    "Name": "[害羞]",
+    "Shortcut": "hx"
+  },
+  {
+    "File": "face_08bizui.gif",
+    "Name": "[闭嘴]",
+    "Shortcut": "bz"
+  },
+  {
+    "File": "face_09shui.gif",
+    "Name": "[睡]",
+    "Shortcut": "shui"
+  },
+  {
+    "File": "face_10daku.gif",
+    "Name": "[大哭]",
+    "Shortcut": "dk"
+  },
+  {
+    "File": "face_11ganga.gif",
+    "Name": "[尴尬]",
+    "Shortcut": "gg"
+  },
+  {
+    "File": "face_12fanu.gif",
+    "Name": "[发怒]",
+    "Shortcut": "fn"
+  },
+  {
+    "File": "face_13tiaopi.gif",
+    "Name": "[调皮]",
+    "Shortcut": "tp"
+  },
+  {
+    "File": "face_14ciya.gif",
+    "Name": "[呲牙]",
+    "Shortcut": "cy"
+  },
+  {
+    "File": "face_15jingya.gif",
+    "Name": "[惊讶]",
+    "Shortcut": "jy"
+  },
+  {
+    "File": "face_16nanguo.gif",
+    "Name": "[难过]",
+    "Shortcut": "ng"
+  },
+  {
+    "File": "face_17ku.gif",
+    "Name": "[酷]",
+    "Shortcut": "ku"
+  },
+  {
+    "File": "face_18jiong.gif",
+    "Name": "[囧]",
+    "Shortcut": "jiong"
+  },
+  {
+    "File": "face_19zhuakuang.gif",
+    "Name": "[抓狂]",
+    "Shortcut": "zk"
+  },
+  {
+    "File": "face_20tu.gif",
+    "Name": "[吐]",
+    "Shortcut": "tu"
+  },
+  {
+    "File": "face_21touxiao.gif",
+    "Name": "[偷笑]",
+    "Shortcut": "tx"
+  },
+  {
+    "File": "face_22yukuai.gif",
+    "Name": "[愉快]",
+    "Shortcut": "yk"
+  },
+  {
+    "File": "face_23baiyan.gif",
+    "Name": "[白眼]",
+    "Shortcut": "by"
+  },
+  {
+    "File": "face_24aoman.gif",
+    "Name": "[傲慢]",
+    "Shortcut": "am"
+  },
+  {
+    "File": "face_25jie.gif",
+    "Name": "[饥饿]",
+    "Shortcut": "je"
+  },
+  {
+    "File": "face_26kun.gif",
+    "Name": "[困]",
+    "Shortcut": "kun"
+  },
+  {
+    "File": "face_27jingkong.gif",
+    "Name": "[惊恐]",
+    "Shortcut": "jk"
+  },
+  {
+    "File": "face_28liuhan.gif",
+    "Name": "[流汗]",
+    "Shortcut": "lh"
+  },
+  {
+    "File": "face_29hanxiao.gif",
+    "Name": "[憨笑]",
+    "Shortcut": "hxiao"
+  },
+  {
+    "File": "face_30youxian.gif",
+    "Name": "[悠闲]",
+    "Shortcut": "yx"
+  },
+  {
+    "File": "face_31fendou.gif",
+    "Name": "[奋斗]",
+    "Shortcut": "fdou"
+  },
+  {
+    "File": "face_32zhouma.gif",
+    "Name": "[咒骂]",
+    "Shortcut": "zm"
+  },
+  {
+    "File": "face_33yiwen.gif",
+    "Name": "[疑问]",
+    "Shortcut": "yw"
+  },
+  {
+    "File": "face_34xu.gif",
+    "Name": "[嘘]",
+    "Shortcut": "xu"
+  },
+  {
+    "File": "face_35yun.gif",
+    "Name": "[晕]",
+    "Shortcut": "yun"
+  },
+  {
+    "File": "face_36fengle.gif",
+    "Name": "[疯了]",
+    "Shortcut": "fl"
+  },
+  {
+    "File": "face_37shuai.gif",
+    "Name": "[衰]",
+    "Shortcut": "shuai"
+  },
+  {
+    "File": "face_38kulou.gif",
+    "Name": "[骷髅]",
+    "Shortcut": "kl"
+  },
+  {
+    "File": "face_39qiaoda.gif",
+    "Name": "[敲打]",
+    "Shortcut": "qd"
+  },
+  {
+    "File": "face_40zaijian.gif",
+    "Name": "[再见]",
+    "Shortcut": "zj"
+  },
+  {
+    "File": "face_41cahan.gif",
+    "Name": "[擦汗]",
+    "Shortcut": "ch"
+  },
+  {
+    "File": "face_42koubi.gif",
+    "Name": "[抠鼻]",
+    "Shortcut": "kb"
+  },
+  {
+    "File": "face_43guzhang.gif",
+    "Name": "[鼓掌]",
+    "Shortcut": "gz"
+  },
+  {
+    "File": "face_44qiudale.gif",
+    "Name": "[糗大了]",
+    "Shortcut": "qdl"
+  },
+  {
+    "File": "face_45huaixiao.gif",
+    "Name": "[坏笑]",
+    "Shortcut": "huaix"
+  },
+  {
+    "File": "face_46zuohengheng.gif",
+    "Name": "[左哼哼]",
+    "Shortcut": "zhh"
+  },
+  {
+    "File": "face_47youhengheng.gif",
+    "Name": "[右哼哼]",
+    "Shortcut": "yhh"
+  },
+  {
+    "File": "face_48haqian.gif",
+    "Name": "[哈欠]",
+    "Shortcut": "hq"
+  },
+  {
+    "File": "face_49bishi.gif",
+    "Name": "[鄙视]",
+    "Shortcut": "bs"
+  },
+  {
+    "File": "face_50weiqu.gif",
+    "Name": "[委屈]",
+    "Shortcut": "wq"
+  },
+  {
+    "File": "face_51kuaiku.gif",
+    "Name": "[快哭]",
+    "Shortcut": "kk"
+  },
+  {
+    "File": "face_52yinxian.gif",
+    "Name": "[阴险]",
+    "Shortcut": "yxian"
+  },
+  {
+    "File": "face_53qinqin.gif",
+    "Name": "[亲亲]",
+    "Shortcut": "qq"
+  },
+  {
+    "File": "face_54he.gif",
+    "Name": "[吓]",
+    "Shortcut": "he"
+  },
+  {
+    "File": "face_55kelian.gif",
+    "Name": "[可怜]",
+    "Shortcut": "klian"
+  },
+  {
+    "File": "face_56caidao.gif",
+    "Name": "[菜刀]",
+    "Shortcut": "cd"
+  },
+  {
+    "File": "face_57xigua.gif",
+    "Name": "[西瓜]",
+    "Shortcut": "xg"
+  },
+  {
+    "File": "face_58pijiu.gif",
+    "Name": "[啤酒]",
+    "Shortcut": "pj"
+  },
+  {
+    "File": "face_59lanqiu.gif",
+    "Name": "[篮球]",
+    "Shortcut": "lq"
+  },
+  {
+    "File": "face_60pingpang.gif",
+    "Name": "[乒乓]",
+    "Shortcut": "pp"
+  },
+  {
+    "File": "face_61kafei.gif",
+    "Name": "[咖啡]",
+    "Shortcut": "kf"
+  },
+  {
+    "File": "face_62fan.gif",
+    "Name": "[饭]",
+    "Shortcut": "fan"
+  },
+  {
+    "File": "face_63zhutou.gif",
+    "Name": "[猪头]",
+    "Shortcut": "zt"
+  },
+  {
+    "File": "face_64meigui.gif",
+    "Name": "[玫瑰]",
+    "Shortcut": "mg"
+  },
+  {
+    "File": "face_65diaoxie.gif",
+    "Name": "[凋谢]",
+    "Shortcut": "dx"
+  },
+  {
+    "File": "face_66zuichun.gif",
+    "Name": "[嘴唇]",
+    "Shortcut": "zc"
+  },
+  {
+    "File": "face_67aixin.gif",
+    "Name": "[爱心]",
+    "Shortcut": "ax"
+  },
+  {
+    "File": "face_68xinsui.gif",
+    "Name": "[心碎]",
+    "Shortcut": "xs"
+  },
+  {
+    "File": "face_69dangao.gif",
+    "Name": "[蛋糕]",
+    "Shortcut": "dg"
+  },
+  {
+    "File": "face_70shandian.gif",
+    "Name": "[闪电]",
+    "Shortcut": "sd"
+  },
+  {
+    "File": "face_71zhadan.gif",
+    "Name": "[炸弹]",
+    "Shortcut": "zd"
+  },
+  {
+    "File": "face_72dao.gif",
+    "Name": "[刀]",
+    "Shortcut": "dao"
+  },
+  {
+    "File": "face_73zuqiu.gif",
+    "Name": "[足球]",
+    "Shortcut": "zq"
+  },
+  {
+    "File": "face_74piaochong.gif",
+    "Name": "[瓢虫]",
+    "Shortcut": "pc"
+  },
+  {
+    "File": "face_75bianbian.gif",
+    "Name": "[便便]",
+    "Shortcut": "bb"
+  },
+  {
+    "File": "face_76yueliang.gif",
+    "Name": "[月亮]",
+    "Shortcut": "yl"
+  },
+  {
+    "File": "face_77taiyang.gif",
+    "Name": "[太阳]",
+    "Shortcut": "ty"
+  },
+  {
+    "File": "face_78liwu.gif",
+    "Name": "[礼物]",
+    "Shortcut": "lw"
+  },
+  {
+    "File": "face_79yongbao.gif",
+    "Name": "[拥抱]",
+    "Shortcut": "yb"
+  },
+  {
+    "File": "face_80qiang.gif",
+    "Name": "[强]",
+    "Shortcut": "qiang"
+  },
+  {
+    "File": "face_81ruo.gif",
+    "Name": "[弱]",
+    "Shortcut": "ruo"
+  },
+  {
+    "File": "face_82woshou.gif",
+    "Name": "[握手]",
+    "Shortcut": "ws"
+  },
+  {
+    "File": "face_83shengli.gif",
+    "Name": "[胜利]",
+    "Shortcut": "sl"
+  },
+  {
+    "File": "face_84baoquan.gif",
+    "Name": "[抱拳]",
+    "Shortcut": "bq"
+  },
+  {
+    "File": "face_85gouyin.gif",
+    "Name": "[勾引]",
+    "Shortcut": "gy"
+  },
+  {
+    "File": "face_86quantou.gif",
+    "Name": "[拳头]",
+    "Shortcut": "qt"
+  },
+  {
+    "File": "face_87chajin.gif",
+    "Name": "[差劲]",
+    "Shortcut": "cj"
+  },
+  {
+    "File": "face_88aini.gif",
+    "Name": "[爱你]",
+    "Shortcut": "an"
+  },
+  {
+    "File": "face_89no.gif",
+    "Name": "[NO]",
+    "Shortcut": "no"
+  },
+  {
+    "File": "face_90ok.gif",
+    "Name": "[OK]",
+    "Shortcut": "ok"
+  },
+  {
+    "File": "face_106jianxiao.gif",
+    "Name": "[奸笑]",
+    "Shortcut": "jx"
+  },
+  {
+    "File": "face_107lbx.gif",
+    "Name": "[流鼻血]",
+    "Shortcut": "lbx"
+  },
+  {
+    "File": "face_108hy.gif",
+    "Name": "[汗颜]",
+    "Shortcut": "hy"
+  },
+  {
+    "File": "face_109m.gif",
+    "Name": "[美]",
+    "Shortcut": "m"
+  },
+  {
+    "File": "face_110zs.gif",
+    "Name": "[招手]",
+    "Shortcut": "zs"
+  },
+  {
+    "File": "face_111gl.gif",
+    "Name": "[鬼脸]",
+    "Shortcut": "gl"
+  },
+  {
+    "File": "face_112ya.gif",
+    "Name": "[阴暗]",
+    "Shortcut": "ya"
+  }
+]

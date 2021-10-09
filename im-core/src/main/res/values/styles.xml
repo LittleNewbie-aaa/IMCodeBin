@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="StyleCustomToolbar">
+        <item name="android:layout_height">@dimen/actionBarSize</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="qmui_topbar_bg_color">@color/toolbarBgColor</item>
+        <item name="qmui_topbar_title_color">@color/toolbarTextColor</item>
+        <item name="qmui_topbar_separator_height">1px</item>
+        <item name="qmui_topbar_separator_color">#F1F1F1</item>
+        <item name="qmui_topbar_title_text_size">18sp</item>
+        <item name="qmui_topbar_title_gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="qmui_topbar_left_back_drawable_id">@drawable/ic_back</item>
+    </style>
+
+    <style name="ActivityDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--设置动画，在这里使用让它继承系统的Animation.Dialog-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+</resources>

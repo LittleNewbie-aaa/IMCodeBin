@@ -1,0 +1,37 @@
+<resources>
+    <string name="im_record_voice_cancel" >松开手指，取消发送</string>
+    <string name="im_record_voice_short">录音时间太短</string>
+    <string name="im_record_voice_rec">手指上滑，取消发送</string>
+
+    <string name="chatvoice_notific_start">%1$s发起了语音通话</string>
+    <string name="chatvoice_notific_end">语音通话已结束</string>
+    <string name="chatvoide_notific_start">%1$s发起了视频通话</string>
+    <string name="chatvoide_notific_end">视频通话已结束</string>
+
+    <string name="chat_session_notific_recall">%1$s撤回了一条消息</string>
+
+    <string name="chat_session_notific_invite">%1$s邀请%2$s加入了群聊</string>
+    <string name="chat_session_notific_rename">%1$s把群名改为了%2$s</string>
+    <string name="chat_session_notific_exit">%1$s退出了群聊</string>
+    <string name="chat_session_notific_transfor">%1$s已将群转让给了%2$s</string>
+    <string name="chat_session_notific_cancel_admin">%1$s已取消%2$s的管理员身份</string>
+    <string name="chat_session_notific_set_admin">%1$s已将%2$s设置为管理员</string>
+    <string name="chat_session_notific_remove">%1$s把%2$s移出了群聊</string>
+    <string name="chat_session_notice_exit">%1$s发布了一条群公告</string>
+    <string name="chat_session_notific_dissolve">群已解散</string>
+    <string name="chat_session_notific_upgrade_to_session">%1$s已将讨论组升级为群</string>
+    <string name="chat_session_notific_upgrade_to_fix_session">%1$s已将群升级为固定群</string>
+    <string name="chat_session_notific_invite_and_remove">%1$s邀请了%2$s加入了群聊\n%1$s将%3$s移出了了群聊</string>
+    <string name="chat_session_notific_">%1$s邀请了%2$s加入了群聊\n%1$s将%3$s移出了了群聊</string>
+    <string name="chat_session_notific_cancel_admin_self">您已取消%1$s的管理员身份</string>
+
+    <string name="chat_message_receipts_single">未回执</string>
+    <string name="chat_message_receiptsed_single">已回执</string>
+
+    <string name="chat_message_receipts">%1$s人未回执</string>
+    <string name="chat_message_receipts_all">全部已回执</string>
+
+    <string name="chat_message_need_receipts">发送回执</string>
+    <string name="chat_message_receipts_sent">已发送回执</string>
+
+</resources>

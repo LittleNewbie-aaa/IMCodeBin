@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorScheme1">#089ad7</color>
+    <color name="colorScheme2">#A8D958</color>
+    <color name="colorScheme3">#C93437</color>
+
+    <!--    顶部标题栏文字颜色-->
+    <color name="toolbarTextColor">#FFFFFF</color>
+    <!--    顶部标题栏和状态栏颜色-->
+    <color name="toolbarBgColor">#089ad7</color>
+    <!--    应用主题颜色-->
+    <color name="appMainColor">#089ad7</color>
+    <!--    应用背景颜色-->
+    <color name="app_bg">#f5f5f5</color>
+    <!--    搜索栏背景色-->
+    <color name="search_bg_color">#089ad7</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="e5e5e5">#e5e5e5</color>
+    <color name="c8cad7">#c8cad7</color>
+
+    <color name="colorLink">#1E90ff</color>
+
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+    <color name="conversationMsgColor">#adadad</color>
+</resources>

@@ -1,0 +1,125 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+kapt {
+    useBuildCache = true
+    javacOptions {
+        option("-Xmaxerrs", 500)
+    }
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++14 -frtti -fexceptions"
+                abiFilters "armeabi-v7a"
+                arguments "-DANDROID_TOOLCHAIN=gcc"
+            }
+        }
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+        consumerProguardFiles 'proguard-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "int", "AppNameFlag", AppNameFlag
+            buildConfigField "String", "HOST", "\"${host}\""
+            buildConfigField "int", "PORT", port
+            buildConfigField "String", "fileServer", "\"${fileServer}\""
+            buildConfigField "int", "fileServerPort", fileServerPort
+            buildConfigField "String", "restServer", "\"${restServer}\""
+            buildConfigField "int", "restServerPort", restServerPort
+            buildConfigField "String", "contactsServer", "\"${contactsServer}\""
+            buildConfigField "int", "contactsServerPort", contactsServerPort
+            buildConfigField "String", "OfficialAccountsServer", "\"${OfficialAccountsServer}\""
+            buildConfigField "int", "OfficialAccountsServerPort", OfficialAccountsServerPort
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "int", "AppNameFlag", AppNameFlag
+            buildConfigField "String", "HOST", "\"${host}\""
+            buildConfigField "int", "PORT", port
+            buildConfigField "String", "fileServer", "\"${fileServer}\""
+            buildConfigField "int", "fileServerPort", fileServerPort
+            buildConfigField "String", "restServer", "\"${restServer}\""
+            buildConfigField "int", "restServerPort", restServerPort
+            buildConfigField "String", "contactsServer", "\"${contactsServer}\""
+            buildConfigField "int", "contactsServerPort", contactsServerPort
+            buildConfigField "String", "OfficialAccountsServer", "\"${OfficialAccountsServer}\""
+            buildConfigField "int", "OfficialAccountsServerPort", OfficialAccountsServerPort
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    /*externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }*/
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/rxjava.properties'
+        exclude 'META-INF/INDEX.LIS'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+}
+androidExtensions {
+    experimental = true
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.google.code.findbugs:jsr305:3.0.1'
+
+    api project(':baselib')
+    kapt "android.arch.lifecycle:compiler:1.1.1"
+    kapt rootProject.ext.deps.glide4_compiler
+    kapt rootProject.ext.deps.dagger_compiler
+    kapt rootProject.ext.deps.dagger_android_compiler
+
+    implementation group: 'org.bouncycastle', name: 'bcprov-jdk15on', version: '1.59'
+
+    //room数据库
+    implementation "com.commonsware.cwac:saferoom:0.4.4"
+    implementation 'net.zetetic:android-database-sqlcipher:4.0.0@aar'
+    implementation "android.arch.persistence.room:runtime:1.1.1"
+    kapt "android.arch.persistence.room:compiler:1.1.1"
+
+    implementation 'net.lingala.zip4j:zip4j:1.3.2'
+    implementation 'io.netty:netty-handler:4.1.31.Final'
+    implementation 'com.github.promeg:tinypinyin:2.0.3'  // TinyPinyin核心包，约80KB
+    implementation 'com.jakewharton:disklrucache:2.0.2'
+
+    //解析html
+    api 'org.jsoup:jsoup:1.10.3'
+}
+
+//apply plugin: 'io.objectbox'

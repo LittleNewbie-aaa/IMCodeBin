@@ -1,0 +1,74 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "String", "channelId", "\"${channelId}\""
+            buildConfigField "String", "autoKey", "\"${autoKey}\""
+            buildConfigField "String", "APIKey", "\"${APIKey}\""
+            buildConfigField "String", "siteSign", "\"${siteSign}\""
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "String", "channelId", "\"${channelId}\""
+            buildConfigField "String", "autoKey", "\"${autoKey}\""
+            buildConfigField "String", "APIKey", "\"${APIKey}\""
+            buildConfigField "String", "siteSign", "\"${siteSign}\""
+        }
+    }
+//    compileOptions {
+//        sourceCompatibility JavaVersion.VERSION_1_8
+//        targetCompatibility JavaVersion.VERSION_1_8
+//    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    //腾讯实时音视频
+    api project(':trtc_call')
+    kapt "android.arch.lifecycle:compiler:1.1.1"
+    kapt rootProject.ext.deps.glide4_compiler
+    kapt rootProject.ext.deps.dagger_compiler
+    kapt rootProject.ext.deps.dagger_android_compiler
+
+    //视频会议
+    implementation(name: 'mobilertc', ext: 'aar')
+    implementation(name: 'commonlib', ext: 'aar')
+    implementation(name: 'bizconfvideosdk', ext: 'aar')
+    implementation 'org.apache.directory.studio:org.apache.commons.lang:2.6'
+}
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+androidExtensions {
+    experimental = true
+}
