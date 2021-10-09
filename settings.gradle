@@ -1,5 +1,4 @@
 include ':baselib'
-include ':bizvideolib'
 include ':im-core'
 include ':trtc_call'
 include ':app'
